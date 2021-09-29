@@ -1,10 +1,14 @@
+Task:
+Answer the question: how long is a user registered on GitHub
+------------------------------------
+
 import requests
 import os
 from pprint import pprint
 import dateutil.parser, datetime
 
 #generate tocken on GitHub
-owner = "ekaterina1457"
+owner = input("Print user's login: ")
 access_token='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' 
 headers = {'Authorization':"Token "+access_token}
 

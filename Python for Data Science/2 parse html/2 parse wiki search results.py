@@ -1,3 +1,10 @@
+Source:
+view-source:https://en.wikipedia.org/wiki/Adolf_(disambiguation)
+
+Task:
+print all headers of found articles for search "Adolf" and the descriprion to these articles
+---------------------------------
+
 import requests
 from bs4 import BeautifulSoup
 import re

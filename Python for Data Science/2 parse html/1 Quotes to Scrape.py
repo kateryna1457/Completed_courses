@@ -1,3 +1,10 @@
+Sourse:
+view-source:https://quotes.toscrape.com/
+
+Task:
+fill all most common words in quotes
+-----------------------------
+
 import requests
 from bs4 import BeautifulSoup
 
